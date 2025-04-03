@@ -7,7 +7,7 @@ const Banner = () => {
 
   const [loopNum , setLoopNum] = useState(0);
   const [isDeleting , setIsDeleting] = useState(false);
-  const toRotate =  ["Web Developer" , "Web Designer"  , "UX/UI Designer"] ;
+  const toRotate =  ["Web Developer" , "Frontend Developmer"  , "React Developer"] ;
   const [text , setText] = useState("") ; 
   const [detlta , setDelta] = useState(300 - Math.random()*100)
   const period =  2000;
@@ -49,8 +49,7 @@ const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             <span className='tagline'>Welcome to my  Portfolio</span>
             <h1>{'Hi I am Ahmad Alanaswah'} <span className='wrap'>{text}</span></h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, est officiis laborum deleniti distinctio dolore reiciendis labore amet. Modi explicabo ullam numquam facere repellendus, iusto aspernatur animi dolorem dolore unde!</p>
-            {/* <button onClick={() => console.log("connect")}>Let's connect <ArrowRightCircle size={24}/></button> */}
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, est officiis laborum deleniti distinctio dolore reiciendis labore amet. Modi explicabo ullam numquam facere repellendus, iusto aspernatur animi dolorem dolore unde!</p> */}
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt='header img'/>

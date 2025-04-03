@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import navIcon1 from '../assets/img/nav-icon1.svg';
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 import {
   BrowserRouter as Router
@@ -47,8 +48,8 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="#"><img src={navIcon1} alt="" /></a>
-                <a href="#"><img src={navIcon1} alt="" /></a>
+                <a href="#"><BsLinkedin size={24} color="white" href=""/></a>
+                <a href="#"><BsGithub size={24} color="white" href=""/></a>
               </div>
             
             </span>

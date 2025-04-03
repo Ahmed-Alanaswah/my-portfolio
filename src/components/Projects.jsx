@@ -1,43 +1,25 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import midicalClinic from "../assets/img/midical-clinic.png";
+import lavishRidetask from "../assets/img/lavishRidetask.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 
 function Projects() {
   
   const projects = [
     {
-      title: "Business Startup",
+      title: "Medical Clicnic",
       description: "Design & Development",
-      imgUrl: projImg1,
+      imgUrl: midicalClinic,
+      url:"https://ahmed-alanaswah.github.io/medical-clinic-project/"
     },
+
     {
-      title: "Business Startup",
+      title: "Landing Page",
       description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
+      imgUrl: lavishRidetask,
+      url:"https://github.com/Ahmed-Alanaswah/LavishRideTask/blob/main/images/lavishRidetask.png"
+    }
   ]
   return (
     <section className="project" id="projects">

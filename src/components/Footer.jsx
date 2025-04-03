@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import navIcon1 from "../assets/img/nav-icon1.svg";
+import { BsGithub } from "react-icons/bs";
+import { BsLinkedin } from "react-icons/bs";
 
 
 const Footer = () => {
@@ -16,8 +17,8 @@ const Footer = () => {
           
         <Col size={12} sm={4} className="align-items-center text-center text-sm-end">
         <div className="social-icon">
-            <a href="#"><img src={navIcon1} alt="Icon" /></a>
-            <a href="#"><img src={navIcon1} alt="Icon" /></a>
+            <a href="#"><BsLinkedin size={24} color="white"/></a>
+            <a href="#"><BsGithub size={24} color="white"/></a>
         </div>
         </Col>
         </Row>
