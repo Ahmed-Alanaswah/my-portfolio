@@ -17,8 +17,8 @@ const Footer = () => {
           
         <Col size={12} sm={4} className="align-items-center text-center text-sm-end">
         <div className="social-icon">
-            <a href="#"><BsLinkedin size={24} color="white"/></a>
-            <a href="#"><BsGithub size={24} color="white"/></a>
+            <a href="https://www.linkedin.com/in/ahmed-alanasweh/" target="_blank"><BsLinkedin size={24} color="white"/></a>
+            <a href="https://github.com/Ahmed-Alanaswah" target="_blank"><BsGithub size={24} color="white"/></a>
         </div>
         </Col>
         </Row>

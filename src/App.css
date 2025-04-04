@@ -27,6 +27,10 @@ html {
   scroll-padding-top: 75px;
 }
 
+#root{
+  overflow-y: clip;
+}
+
 body {
   display: flow;
   place-items: unset;
